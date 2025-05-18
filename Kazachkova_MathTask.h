@@ -8,6 +8,7 @@ using namespace std;
 
 // Функция контроля вводимых данных
 bool UserInput(string input) {
+    int pos = 0;
     if (input.empty()) return false;
     try {
         double number = stod(input);
